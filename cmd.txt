@@ -1,0 +1,10 @@
+
+  To IMPORT CVV FILE IN SQL TABLE:        COPY persons(first_name, last_name, dob, email)
+				                                	FROM 'C:\sampledb\persons.csv'
+					                              	DELIMITER ','
+				                              		CSV HEADER;
+    
+
+
+ To IMPORT CVV FILE IN SQL TABLE :        COPY table_name TO 'file_name.csv' DELIMITER ',' CSV HEADER;  
+
